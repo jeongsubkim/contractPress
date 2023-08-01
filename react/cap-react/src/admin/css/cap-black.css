@@ -1,0 +1,171 @@
+body[theme=black] {
+  margin: 0;
+  background-color: #454545;
+  color: #FFB2B2;
+}
+body[theme=black] ::-webkit-scrollbar {
+  width: 5px;
+}
+body[theme=black] ::-webkit-scrollbar-track {
+  background-color: #FFF1F1;
+}
+body[theme=black] ::-webkit-scrollbar-thumb {
+  background-color: #FFB2B2;
+}
+body[theme=black] ::-webkit-scrollbar-thumb:hover {
+  background-color: #FFB2B2;
+}
+body[theme=black] #loading {
+  background-color: #454545;
+  background-image: url("../image/loading-pink.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body[theme=black] a {
+  color: #FFB2B2;
+}
+body[theme=black] input[type=text],
+body[theme=black] select {
+  border: 2px solid #FFB2B2;
+  background-color: #454545;
+  color: #FFB2B2;
+}
+body[theme=black] input[type=text]:focus,
+body[theme=black] select:focus {
+  border: 2px solid #454545;
+  background-color: #FFB2B2;
+  color: #454545;
+  outline: none;
+}
+body[theme=black] input[type=button] {
+  border: 2px solid #FFB2B2;
+  background-color: #454545;
+  color: #FFB2B2;
+}
+body[theme=black] input[type=button]:hover {
+  background-color: #FFB2B2;
+  color: #454545;
+}
+body[theme=black] input[type=checkbox] {
+  background-color: #454545;
+  border: 2px solid #FFB2B2;
+}
+body[theme=black] input[type=checkbox]::before {
+  background-color: #FFB2B2;
+}
+body[theme=black] .error-txt {
+  color: #A2F6FF;
+}
+body[theme=black] span.required {
+  color: #454545;
+  background-color: #FFB2B2;
+}
+body[theme=black] .register-btn::before {
+  background-image: url("../image/register-pink.png");
+}
+body[theme=black] .register-btn:hover::before {
+  background-image: url("../image/register-pink-hover.png");
+}
+body[theme=black] header {
+  background-color: #FFB2B2;
+}
+body[theme=black] header .header-logo {
+  background-image: url("../image/header-logo-pink-black.png");
+}
+body[theme=black] #gnb ul li {
+  border-top: 0;
+  border: 1px solid #FFB2B2;
+}
+body[theme=black] #gnb ul li:hover {
+  border: 1px solid #FFB2B2;
+  background-color: #FFB2B2;
+  color: #454545;
+}
+body[theme=black] #gnb ul li:hover > a {
+  background-color: #FFB2B2;
+  color: #454545;
+}
+body[theme=black] #gnb ul li .template-master {
+  background-image: url(../image/gnb-template-icon-pink.png);
+}
+body[theme=black] #gnb ul li:hover .template-master {
+  background-image: url(../image/gnb-template-icon-pink-hover.png);
+}
+body[theme=black] #gnb ul li .dom-master {
+  background-image: url(../image/gnb-dom-icon-pink.png);
+}
+body[theme=black] #gnb ul li:hover .dom-master {
+  background-image: url(../image/gnb-dom-icon-pink-hover.png);
+}
+body[theme=black] #gnb ul li .page-master {
+  background-image: url(../image/gnb-page-icon-pink.png);
+}
+body[theme=black] #gnb ul li:hover .page-master {
+  background-image: url(../image/gnb-page-icon-pink-hover.png);
+}
+body[theme=black] #gnb ul li .auth-master {
+  background-image: url(../image/gnb-auth-icon-pink.png);
+}
+body[theme=black] #gnb ul li:hover .auth-master {
+  background-image: url(../image/gnb-auth-icon-pink-hover.png);
+}
+body[theme=black] #gnb ul li .database-master {
+  background-image: url(../image/gnb-database-icon-pink.png);
+}
+body[theme=black] #gnb ul li:hover .database-master {
+  background-image: url(../image/gnb-database-icon-pink-hover.png);
+}
+body[theme=black] #gnb ul li .code-master {
+  background-image: url(../image/gnb-code-icon-pink.png);
+}
+body[theme=black] #gnb ul li:hover .code-master {
+  background-image: url(../image/gnb-code-icon-pink-hover.png);
+}
+body[theme=black] #gnb ul li > ul {
+  background-color: #FFB2B2;
+  color: #454545;
+}
+body[theme=black] #gnb ul li > ul li {
+  color: #FFB2B2;
+  background-color: #454545;
+}
+body[theme=black] #gnb ul li > ul li:hover {
+  color: #454545;
+  background-color: #FFB2B2;
+}
+body[theme=black] footer {
+  background-color: #FFB2B2;
+}
+body[theme=black] #container .box {
+  border: 3px solid #FFB2B2;
+  border-radius: 10px;
+}
+body[theme=black] #container .login-box .logo {
+  background-image: url(../image/logo-pink.png);
+}
+body[theme=black] #container .content-box .title {
+  background-color: #FFB2B2;
+  color: #454545;
+}
+body[theme=black] #container .content-box .title p::before {
+  background-image: url(../image/star-pink.png);
+}
+body[theme=black] #container .content-box .title span::after {
+  background-image: url("../image/more-pink.png");
+}
+body[theme=black] #container .content-box .content-area table.content-table td {
+  border-bottom: 1px solid #FFF1F1 !important;
+}
+body[theme=black] #container .content-box .content-area .table-btn-area a:hover {
+  background-color: #FFB2B2;
+  color: #454545;
+}
+body[theme=black] #container .content-box .content-area .input-table .column-tr .column-th {
+  border-right: 3px solid #FFF1F1;
+}
+body[theme=black] #container .content-box .content-area .input-table .column-tr .column-td .inner-table-th {
+  background-color: #FFB2B2;
+  color: #454545;
+}
+
+/*# sourceMappingURL=cap-black.css.map */

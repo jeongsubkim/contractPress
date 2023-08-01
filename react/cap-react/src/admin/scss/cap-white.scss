@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+$m-color: #FFFEFE;
+$s-color: #241919;
+$t-color: #848484;
+
+body[theme=white] {
+	margin: 0;
+	background-color: $m-color;
+	color: $s-color;
+
+	::-webkit-scrollbar {
+		width :5px;
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: $t-color;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: $s-color;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: $s-color;
+	}
+
+	#loading {
+		background-color: $m-color;
+		background-image: url('../image/loading-white.gif');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	a {
+		color: $s-color;
+	}
+
+	input[type=text],
+	select {
+		border: 2px solid $s-color;
+		background-color: $m-color;
+		color: $s-color;
+
+		&:focus {
+			border: 2px solid $m-color;
+			background-color: $s-color;
+			color: $m-color;
+			outline: none;
+		}
+	}
+
+	input {
+		&[type=button] {
+			border: 2px solid $s-color;
+			background-color: $m-color;
+			color: $s-color;
+
+			&:hover {
+				background-color: $s-color;
+				color: $m-color;
+			}
+		}
+
+		&[type=checkbox] {
+			background-color: $m-color;
+			border: 2px solid $s-color;
+
+			&::before {
+				background-color: $s-color;
+			}
+		}
+	}
+
+	.error-txt {
+		color: #F52F10;
+	}
+
+	span.required {
+		color: $m-color;
+		background-color: $s-color;
+	}
+
+	.register-btn {
+		&::before {
+			background-image: url('../image/register-white.png');
+		}
+
+		&:hover::before {
+			background-image: url('../image/register-white-hover.png');
+		}
+	}
+
+	header {
+		background-color: #231919;
+
+		.header-logo {
+			background-image: url('../image/header-logo-black-white.png');
+		}
+	}
+
+	#gnb ul li {
+		border-top: 0;
+		border: 1px solid $s-color;
+
+		&:hover {
+			border: 1px solid $s-color;
+			background-color: $s-color;
+			color: $m-color;
+
+			>a {
+				background-color: $s-color;
+				color: $m-color;
+			}
+		}
+
+		.template-master {
+			background-image: url(../image/gnb-template-icon-white.png);
+		}
+
+		&:hover .template-master {
+			background-image: url(../image/gnb-template-icon-white-hover.png);
+		}
+
+		.dom-master {
+			background-image: url(../image/gnb-dom-icon-white.png);
+		}
+
+		&:hover .dom-master {
+			background-image: url(../image/gnb-dom-icon-white-hover.png);
+		}
+
+		.page-master {
+			background-image: url(../image/gnb-page-icon-white.png);
+		}
+
+		&:hover .page-master {
+			background-image: url(../image/gnb-page-icon-white-hover.png);
+		}
+
+		.auth-master {
+			background-image: url(../image/gnb-auth-icon-white.png);
+		}
+
+		&:hover .auth-master {
+			background-image: url(../image/gnb-auth-icon-white-hover.png);
+		}
+
+		.database-master {
+			background-image: url(../image/gnb-database-icon-white.png);
+		}
+
+		&:hover .database-master {
+			background-image: url(../image/gnb-database-icon-white-hover.png);
+		}
+
+		.code-master {
+			background-image: url(../image/gnb-code-icon-white.png);
+		}
+
+		&:hover .code-master {
+			background-image: url(../image/gnb-code-icon-white-hover.png);
+		}
+
+		>ul {
+			background-color: #231919;
+			color: $m-color;
+
+			li {
+				background-color: $m-color;
+				color: #231919;
+
+				&:hover {
+					background-color: #231919;
+					color: $m-color;
+				}
+			}
+		}
+	}
+
+	footer {
+		background-color: #231919;
+	}
+
+	#container {
+		.box {
+			border: 3px solid $s-color;
+			border-radius: 10px;
+		}
+
+		.login-box .logo {
+			background-image: url(../image/logo-black.png);
+		}
+
+		.content-box {
+			.title {
+				background-color: $s-color;
+				color: $m-color;
+
+				p::before {
+					background-image: url(../image/star-white.png);
+				}
+
+				span::after {
+					background-image: url('../image/more-white.png');
+				}
+			}
+
+			.content-area {
+				table.content-table td {
+					border-bottom: 1px solid $t-color !important;
+				}
+
+				.table-btn-area a:hover {
+					background-color: $s-color;
+					color: $m-color;
+				}
+
+				.input-table .column-tr {
+					.column-th {
+						border-right: 3px solid $t-color;
+					}
+
+					.column-td .inner-table-th {
+						background-color: $s-color;
+						color: $m-color;
+					}
+				}
+			}
+		}
+	}
+
+}

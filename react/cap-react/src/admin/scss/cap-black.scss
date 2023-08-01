@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+$m-color: #454545;
+$s-color: #FFB2B2;
+$t-color: #FFF1F1;
+
+body[theme=black] {
+	margin: 0;
+	background-color: $m-color;
+	color: $s-color;
+
+	::-webkit-scrollbar {
+		width :5px;
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: $t-color;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: $s-color;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: $s-color;
+	}
+
+	#loading {
+		background-color: $m-color;
+		background-image: url('../image/loading-pink.gif');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	a {
+		color: $s-color;
+	}
+
+	input[type=text],
+	select {
+		border: 2px solid $s-color;
+		background-color: $m-color;
+		color: $s-color;
+
+		&:focus {
+			border: 2px solid $m-color;
+			background-color: $s-color;
+			color: $m-color;
+			outline: none;
+		}
+	}
+
+	input {
+		&[type=button] {
+			border: 2px solid $s-color;
+			background-color: $m-color;
+			color: $s-color;
+
+			&:hover {
+				background-color: $s-color;
+				color: $m-color;
+			}
+		}
+
+		&[type=checkbox] {
+			background-color: $m-color;
+			border: 2px solid $s-color;
+
+			&::before {
+				background-color: $s-color;
+			}
+		}
+	}
+
+	.error-txt {
+		color: #A2F6FF;
+	}
+
+	span.required {
+		color: $m-color;
+		background-color: $s-color;
+	}
+
+	.register-btn {
+		&::before {
+			background-image: url('../image/register-pink.png');
+		}
+
+		&:hover::before {
+			background-image: url('../image/register-pink-hover.png');
+		}
+	}
+
+	header {
+		background-color: $s-color;
+
+		.header-logo {
+			background-image: url('../image/header-logo-pink-black.png');
+		}
+	}
+
+	#gnb ul li {
+		border-top: 0;
+		border: 1px solid $s-color;
+
+		&:hover {
+			border: 1px solid $s-color;
+			background-color: $s-color;
+			color: $m-color;
+
+			>a {
+				background-color: $s-color;
+				color: $m-color;
+			}
+		}
+
+		.template-master {
+			background-image: url(../image/gnb-template-icon-pink.png);
+		}
+
+		&:hover .template-master {
+			background-image: url(../image/gnb-template-icon-pink-hover.png);
+		}
+
+		.dom-master {
+			background-image: url(../image/gnb-dom-icon-pink.png);
+		}
+
+		&:hover .dom-master {
+			background-image: url(../image/gnb-dom-icon-pink-hover.png);
+		}
+
+		.page-master {
+			background-image: url(../image/gnb-page-icon-pink.png);
+		}
+
+		&:hover .page-master {
+			background-image: url(../image/gnb-page-icon-pink-hover.png);
+		}
+
+		.auth-master {
+			background-image: url(../image/gnb-auth-icon-pink.png);
+		}
+
+		&:hover .auth-master {
+			background-image: url(../image/gnb-auth-icon-pink-hover.png);
+		}
+
+		.database-master {
+			background-image: url(../image/gnb-database-icon-pink.png);
+		}
+
+		&:hover .database-master {
+			background-image: url(../image/gnb-database-icon-pink-hover.png);
+		}
+
+		.code-master {
+			background-image: url(../image/gnb-code-icon-pink.png);
+		}
+
+		&:hover .code-master {
+			background-image: url(../image/gnb-code-icon-pink-hover.png);
+		}
+
+		>ul {
+			background-color: $s-color;
+			color: $m-color;
+
+			li {
+				color: $s-color;
+				background-color: $m-color;
+
+				&:hover {
+					color: $m-color;
+					background-color: $s-color;
+				}
+			}
+		}
+	}
+
+	footer {
+		background-color: $s-color;
+	}
+
+	#container {
+		.box {
+			border: 3px solid $s-color;
+			border-radius: 10px;
+		}
+
+		.login-box .logo {
+			background-image: url(../image/logo-pink.png);
+		}
+
+		.content-box {
+			.title {
+				background-color: $s-color;
+				color: $m-color;
+
+				p::before {
+					background-image: url(../image/star-pink.png);
+				}
+
+				span::after {
+					background-image: url('../image/more-pink.png');
+				}
+			}
+
+			.content-area {
+				table.content-table td {
+					border-bottom: 1px solid $t-color !important;
+				}
+
+				.table-btn-area a:hover {
+					background-color: $s-color;
+					color: $m-color;
+				}
+
+				.input-table .column-tr {
+					.column-th {
+						border-right: 3px solid $t-color;
+					}
+
+					.column-td .inner-table-th {
+						background-color: $s-color;
+						color: $m-color;
+					}
+				}
+			}
+		}
+	}
+}

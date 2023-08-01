@@ -1,0 +1,171 @@
+body[theme=white] {
+  margin: 0;
+  background-color: #FFFEFE;
+  color: #241919;
+}
+body[theme=white] ::-webkit-scrollbar {
+  width: 5px;
+}
+body[theme=white] ::-webkit-scrollbar-track {
+  background-color: #848484;
+}
+body[theme=white] ::-webkit-scrollbar-thumb {
+  background-color: #241919;
+}
+body[theme=white] ::-webkit-scrollbar-thumb:hover {
+  background-color: #241919;
+}
+body[theme=white] #loading {
+  background-color: #FFFEFE;
+  background-image: url("../image/loading-white.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body[theme=white] a {
+  color: #241919;
+}
+body[theme=white] input[type=text],
+body[theme=white] select {
+  border: 2px solid #241919;
+  background-color: #FFFEFE;
+  color: #241919;
+}
+body[theme=white] input[type=text]:focus,
+body[theme=white] select:focus {
+  border: 2px solid #FFFEFE;
+  background-color: #241919;
+  color: #FFFEFE;
+  outline: none;
+}
+body[theme=white] input[type=button] {
+  border: 2px solid #241919;
+  background-color: #FFFEFE;
+  color: #241919;
+}
+body[theme=white] input[type=button]:hover {
+  background-color: #241919;
+  color: #FFFEFE;
+}
+body[theme=white] input[type=checkbox] {
+  background-color: #FFFEFE;
+  border: 2px solid #241919;
+}
+body[theme=white] input[type=checkbox]::before {
+  background-color: #241919;
+}
+body[theme=white] .error-txt {
+  color: #F52F10;
+}
+body[theme=white] span.required {
+  color: #FFFEFE;
+  background-color: #241919;
+}
+body[theme=white] .register-btn::before {
+  background-image: url("../image/register-white.png");
+}
+body[theme=white] .register-btn:hover::before {
+  background-image: url("../image/register-white-hover.png");
+}
+body[theme=white] header {
+  background-color: #231919;
+}
+body[theme=white] header .header-logo {
+  background-image: url("../image/header-logo-black-white.png");
+}
+body[theme=white] #gnb ul li {
+  border-top: 0;
+  border: 1px solid #241919;
+}
+body[theme=white] #gnb ul li:hover {
+  border: 1px solid #241919;
+  background-color: #241919;
+  color: #FFFEFE;
+}
+body[theme=white] #gnb ul li:hover > a {
+  background-color: #241919;
+  color: #FFFEFE;
+}
+body[theme=white] #gnb ul li .template-master {
+  background-image: url(../image/gnb-template-icon-white.png);
+}
+body[theme=white] #gnb ul li:hover .template-master {
+  background-image: url(../image/gnb-template-icon-white-hover.png);
+}
+body[theme=white] #gnb ul li .dom-master {
+  background-image: url(../image/gnb-dom-icon-white.png);
+}
+body[theme=white] #gnb ul li:hover .dom-master {
+  background-image: url(../image/gnb-dom-icon-white-hover.png);
+}
+body[theme=white] #gnb ul li .page-master {
+  background-image: url(../image/gnb-page-icon-white.png);
+}
+body[theme=white] #gnb ul li:hover .page-master {
+  background-image: url(../image/gnb-page-icon-white-hover.png);
+}
+body[theme=white] #gnb ul li .auth-master {
+  background-image: url(../image/gnb-auth-icon-white.png);
+}
+body[theme=white] #gnb ul li:hover .auth-master {
+  background-image: url(../image/gnb-auth-icon-white-hover.png);
+}
+body[theme=white] #gnb ul li .database-master {
+  background-image: url(../image/gnb-database-icon-white.png);
+}
+body[theme=white] #gnb ul li:hover .database-master {
+  background-image: url(../image/gnb-database-icon-white-hover.png);
+}
+body[theme=white] #gnb ul li .code-master {
+  background-image: url(../image/gnb-code-icon-white.png);
+}
+body[theme=white] #gnb ul li:hover .code-master {
+  background-image: url(../image/gnb-code-icon-white-hover.png);
+}
+body[theme=white] #gnb ul li > ul {
+  background-color: #231919;
+  color: #FFFEFE;
+}
+body[theme=white] #gnb ul li > ul li {
+  background-color: #FFFEFE;
+  color: #231919;
+}
+body[theme=white] #gnb ul li > ul li:hover {
+  background-color: #231919;
+  color: #FFFEFE;
+}
+body[theme=white] footer {
+  background-color: #231919;
+}
+body[theme=white] #container .box {
+  border: 3px solid #241919;
+  border-radius: 10px;
+}
+body[theme=white] #container .login-box .logo {
+  background-image: url(../image/logo-black.png);
+}
+body[theme=white] #container .content-box .title {
+  background-color: #241919;
+  color: #FFFEFE;
+}
+body[theme=white] #container .content-box .title p::before {
+  background-image: url(../image/star-white.png);
+}
+body[theme=white] #container .content-box .title span::after {
+  background-image: url("../image/more-white.png");
+}
+body[theme=white] #container .content-box .content-area table.content-table td {
+  border-bottom: 1px solid #848484 !important;
+}
+body[theme=white] #container .content-box .content-area .table-btn-area a:hover {
+  background-color: #241919;
+  color: #FFFEFE;
+}
+body[theme=white] #container .content-box .content-area .input-table .column-tr .column-th {
+  border-right: 3px solid #848484;
+}
+body[theme=white] #container .content-box .content-area .input-table .column-tr .column-td .inner-table-th {
+  background-color: #241919;
+  color: #FFFEFE;
+}
+
+/*# sourceMappingURL=cap-white.css.map */
